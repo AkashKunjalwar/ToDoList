@@ -1,0 +1,75 @@
+body{
+    background-image: url(images/AppBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.container{
+    background-color:#DDDDDD;
+    text-align: left;
+    width: 80%;
+    max-height: 100%;
+    margin-top:10px;
+    background-image: url("images/ToDoList.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    font-family: 'Cinzel', serif;
+    padding-bottom: 50px;
+}
+form, .button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 250px;
+}
+form input{
+    width: 500px; 
+}
+.todolist{
+    background-color:whitesmoke;
+    width: 75%;
+    margin: 50px;
+    margin-left: 250px;
+    margin-bottom: 0;
+    height: 400px;
+    overflow-y: scroll;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    text-align: left;
+}
+.collectTDL{
+    padding-left:50px;
+    list-style: none;
+
+}
+.collectTDL li{
+    padding: 10px;
+    min-height: 50px; 
+}
+.collectTDL li:nth-child(2n+2){
+    background-color:#E2E4E7;
+    margin-left: -50px;
+}
+.collectTDL li:nth-child(2n+1){
+    background-color:whitesmoke;
+    margin-left: -50px;
+}
+.btn:hover{
+    transform: scale(1.08);
+}
+.cancel:hover{
+    background-color: red;
+    color: white;
+}
+.collectTDL li:hover{
+    background-color:black;
+    color: white;   
+}
+.cancel{
+    text-align: right;
+}
